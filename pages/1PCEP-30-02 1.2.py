@@ -4,7 +4,11 @@ st.subheader("Keywords")
 st.markdown("""
             As of Python 3.12, there are 35 keywords in the language. Here's the complete list:
 
-False, None, True, and, as, assert, async, await, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
+`False, None, True, and, as, assert, async, 
+await, break, class, continue, def, del, elif, 
+else, except, finally, for, from, global, if, 
+import, in, is, lambda, nonlocal, not, or, pass, 
+raise, return, try, while, with, yield`
 
 These keywords have special meanings within Python and cannot be used as variable names, function names, or other identifiers. It's important to familiarize yourself with this list to avoid conflicts and write valid Python code.
 
