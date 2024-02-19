@@ -1,5 +1,22 @@
 import streamlit as st
 st.title("PCEP-30-02 1.2 – Understand Python’s logic and structure")
+st.subheader("Keywords")
+st.markdown("""
+            As of Python 3.12, there are 35 keywords in the language. Here's the complete list:
+
+False, None, True, and, as, assert, async, await, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
+
+These keywords have special meanings within Python and cannot be used as variable names, function names, or other identifiers. It's important to familiarize yourself with this list to avoid conflicts and write valid Python code.
+
+Additional notes:
+
+    Some keywords were introduced in later versions of Python, so the exact list may differ depending on the version you're using.
+    The keyword module provides functions to check if a string is a keyword or soft keyword.
+
+I hope this helps! Let me know if you have any other questions.
+            """)
+
+st.subheader("Instructions")
 st.markdown("""
             Instructions in Python, essentially lines of code, can be understood through three key aspects:
 
