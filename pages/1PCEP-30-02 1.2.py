@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(layout="wide")
 st.title("PCEP-30-02 1.2 – Understand Python’s logic and structure")
 st.subheader("Keywords")
 st.markdown("""
