@@ -17,9 +17,6 @@ with col1:
     
 with col2:
     st.subheader("Reference Links")
-    with st.container(height=300):
-        st.markdown("""<iframe width="100%" height="250" src="https://www.youtube.com/embed/nr8biZfSZ3Y" title="I coded one project EVERY WEEK for a YEAR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        """,unsafe_allow_html=True)
     
     st.markdown("""<iframe width="100%" height="300" src="https://www.youtube.com/embed/nr8biZfSZ3Y" title="I coded one project EVERY WEEK for a YEAR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         """,unsafe_allow_html=True)
