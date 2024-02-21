@@ -42,6 +42,8 @@ if st.button("Run", use_container_width=True):
     st.text(result.stdout)
     if result.returncode != 0:
         st.code(f"Error: {result.stderr}")
+    else:
+        st.code("Nothing")
     
     if result.returncode == 0:
         st.success(f"Executed Successfully")
