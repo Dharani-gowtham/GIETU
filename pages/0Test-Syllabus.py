@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.title("Test Syllabus")
 st.write("""
          Week 1: Python Basics
 - Day 1: Introduction to Python, Installation
