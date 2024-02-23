@@ -48,6 +48,8 @@ st.code("Github URL: https://github.com/Dharani-gowtham/GIETU")
 
 
 st.title("Python Questions for Practice")
+st.subheader("Control flow docs")
+st.code("https://docs.python.org/3/tutorial/controlflow.html#")
 
 st.subheader("Week 1: Python Basics")
 with st.expander("Input/Output"):
