@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.subheader("url: 172.44.1.61:8501" )
+st.subheader("http://172.44.1.61:8501" )
+st.subheader("https://gietuniversity.streamlit.app/Working-Questions")
+
 
 
 st.markdown("""
