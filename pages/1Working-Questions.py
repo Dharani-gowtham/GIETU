@@ -1,12 +1,7 @@
 import streamlit as st
 
-<<<<<<< HEAD
 st.subheader("172.44.1.61:8501" )
 st.subheader("gietuniversity.streamlit.app/Working-Questions")
-=======
-st.subheader("http://172.44.1.61:8501" )
-st.subheader("https://gietuniversity.streamlit.app/Working-Questions")
->>>>>>> 079b2a2b8d825ab42f197fb68ffad3402c27ead7
 
 
 
