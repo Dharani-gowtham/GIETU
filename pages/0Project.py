@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.title("Project - DeadLine (19 Mar 2024)")
+st.caption(" `Games` `Pre-build Program` `Github Repo` are not allowed")
 st.subheader("Marks Allocated: Pass percentage: 60")
 data = {
     "Problem Statement Description": "2",
