@@ -13,11 +13,24 @@ data = {
         }
 
 st.data_editor(data, use_container_width=True)
-
 st.subheader("Tech Stack that can be used")
-st.checkbox("Flask", value=True, disabled=True)
-st.checkbox("Django", value=True, disabled=True)
-st.checkbox("Fast API", value=True, disabled=True)
-st.checkbox("Streamlit", value=True, disabled=True)
-st.checkbox("React", value=True, disabled=True)
-st.checkbox("Tkinter", value=True, disabled=True)
+col1, col2, col3 = st.columns([1,1,1])
+
+
+with col1:
+    st.subheader("Front-end Frameworks")
+    st.checkbox("Streamlit", value=True, disabled=True)
+    st.checkbox("React", value=True, disabled=True)
+    st.checkbox("Tkinter", value=True, disabled=True)
+    
+with col2:
+    st.subheader("Back-end Frameworks")
+    st.checkbox("Flask", value=True, disabled=True)
+    st.checkbox("Django", value=True, disabled=True)
+    st.checkbox("Fast API", value=True, disabled=True)
+
+with col3:
+    st.subheader("Database Frameworks")
+    st.checkbox("MongoDB", value=True, disabled=True)
+    st.checkbox("MySQL", value=True, disabled=True)
+    st.checkbox("SQlite", value=True, disabled=True)
