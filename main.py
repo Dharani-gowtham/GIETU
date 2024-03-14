@@ -6,7 +6,7 @@ value ="""
 def function():
     # write your code here
 """
-st.title("Project")
+st.title("Project - DeadLine (19 Mar 2024)")
 st.title("Python Basics, OOPS & Data Structures")
 st.code("Github URL: https://github.com/Dharani-gowtham/GIETU")
 
