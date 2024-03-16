@@ -13,7 +13,7 @@ data = {
         }
 
 st.data_editor(data, use_container_width=True)
-st.subheader("Tech Stack that can be used")
+st.markdown("Tech Stack that can be used")
 col1, col2, col3 = st.columns([1,1,1])
 
 
