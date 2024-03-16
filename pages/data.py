@@ -1769,22 +1769,22 @@ Bach4EE = [
 	]
 
 
-text = "BATCH, NAME, ROLL NUMBER, P-Desc, S-Desc, C-Desc, CODE, WORKING \n"
+text = "BATCH, NAME, ROLL NUMBER, P-Desc, S-Desc, C-Desc, CODE, WORKING , TOTAL MARKS\n"
 
 for i in batch1:
-    text += f"Batch 1, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail \n"
+    text += f"Batch 1, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail, 0 \n"
     
 for i in batch2:
-    text += f"Batch 2, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail \n"
+    text += f"Batch 2, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail, 0 \n"
 
 for i in batch3:
-    text += f"Batch 3, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail \n"
+    text += f"Batch 3, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail, 0 \n"
     
 for i in batch4:
-    text += f"Batch 4, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail \n"
+    text += f"Batch 4, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail, 0 \n"
 
 for i in Bach4EE:
-    text += f"Batch 4 EE, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail \n"
+    text += f"Batch 4 EE, {i['vchName']}, {i['vchRollNo']}, Fail, Fail, Fail, Fail, Fail, 0 \n"
     
 
 
